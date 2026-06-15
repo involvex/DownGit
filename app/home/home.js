@@ -1,6 +1,6 @@
 /***********************************************************
 * Developer: Minhas Kamal (minhaskamal024@gmail.com)       *
-* Website: https://github.com/MinhasKamal/DownGit          *
+* Website: https://involvex.github.io/DownGit              *
 * License: MIT License                                     *
 ***********************************************************/
 
@@ -32,7 +32,7 @@ homeModule.config([
 
                     var templateUrl = "https?://github.com/.+/.+";
                     var downloadUrlInfix = "#/home?url=";
-                    var downloadUrlPrefix = "https://minhaskamal.github.io/DownGit/"+downloadUrlInfix;
+                    var downloadUrlPrefix = "https://involvex.github.io/DownGit/"+downloadUrlInfix;
 
                     if ($routeParams.url) {
                         $scope.url = $routeParams.url;

@@ -1,6 +1,6 @@
 /***********************************************************
 * Developer: Minhas Kamal (minhaskamal024@gmail.com)       *
-* Website: https://github.com/MinhasKamal/DownGit          *
+* Website: https://involvex.github.io/DownGit          *
 * License: MIT License                                     *
 ***********************************************************/
 
