@@ -1,67 +1,74 @@
-body{
-    font-family: sans-serif, arial;
-    color: #4A4F64;
+body {
+  font-family: sans-serif, arial;
+  color: #ddd;
+  background-color: #222;
 }
 
-h1, h2, h3, h4, h5, h6, p{
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
-a{
-    color: #004d99;
-}a:hover{
-    text-decoration: none;
-    color: #004d99;
+a {
+  color: #5bc0de;
 }
-
-/**********************************/
-
-.home .center-row{
-    float: none;
-    margin: auto;
-    padding-bottom: 1em;
-}
-
-.home .vertical-space{
-    float: none;
-    margin: auto;
-    padding-bottom: 3em;
-}
-
-.home h1 a{
-    color: #4A4F64;
-}.home h1  a:hover{
-    text-decoration: none;
-}
-
-.home .processing-img{
-    width: 4em;
-    height: auto;
-}
-
-.home .download-link-box{
-    resize: vertical;
-}
-
-.home .footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.donate-button{
-    color: #999999;
-}.donate-button:hover{
-    text-decoration: none;
-    color: #ff4444;
+a:hover {
+  text-decoration: none;
+  color: #5bc0de;
 }
 
 /**********************************/
 
-.toast-down{
-    background-image: url("../res/images/warning.png") !important;
-    background-color: #8c8c8c;
+.home .center-row {
+  float: none;
+  margin: auto;
+  padding-bottom: 1em;
 }
 
+.home .vertical-space {
+  float: none;
+  margin: auto;
+  padding-bottom: 3em;
+}
 
+.home h1 a {
+  color: #fff;
+}
+.home h1 a:hover {
+  text-decoration: none;
+}
 
+.home .processing-img {
+  width: 4em;
+  height: auto;
+}
+
+.home .download-link-box {
+  resize: vertical;
+}
+
+.home .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.donate-button {
+  color: #bbb;
+}
+.donate-button:hover {
+  text-decoration: none;
+  color: #ff4444;
+}
+
+/**********************************/
+
+.toast-down {
+  background-image: url("../res/images/warning.png") !important;
+  background-color: #333;
+}
